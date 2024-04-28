@@ -1,0 +1,22 @@
+Sun Oct 22 21:03:19 CEST 2023
+Trace back: can't read "::vsimPriv(tbarBtnIgnore)": no such element in array
+    while executing
+"if { ! $::vsimPriv(tbarBtnIgnore) } {
+            ButtonInvoke $b $m
+         }"
+    (procedure "Tbar::BMenu::Action" line 51)
+    invoked from within
+"Tbar::BMenu::Action release .dockbar.tbf14.wave.tb.button_86 .dockbar.tbf14.wave.tb.button_86.menu 16 11 1"
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't read "::vsimPriv(tbarBtnIgnore)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "::vsimPriv(tbarBtnIgnore)": no such element in array}
+Sat Apr 06 18:19:10 CEST 2024
+Trace back: bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+    while executing
+"winfo height $widget"
+    (procedure "treeAutoScan" line 11)
+    invoked from within
+"treeAutoScan .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+    ("after" script)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {bad window path name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}

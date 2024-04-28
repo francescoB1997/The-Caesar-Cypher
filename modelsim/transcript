@@ -1,0 +1,123 @@
+# Compile of caesar_cypher.vhd was successful.
+# Compile of char_lut.vhd was successful.
+# Compile of caesar_cypher_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.caesar_cypher_tb
+# vsim -gui work.caesar_cypher_tb 
+# Start time: 18:22:04 on Apr 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.caesar_cypher_tb(caesar_cypher_testbench)
+# Loading work.caesar_cypher(arch_caesar_cypher)
+# Loading work.char_lut(arch_char_lut)
+add wave -position insertpoint  \
+sim:/caesar_cypher_tb/clock_tb \
+sim:/caesar_cypher_tb/testing \
+sim:/caesar_cypher_tb/start_tb \
+sim:/caesar_cypher_tb/reset_tb \
+sim:/caesar_cypher_tb/chiave_tb \
+sim:/caesar_cypher_tb/msg_in_tb \
+sim:/caesar_cypher_tb/msg_out_tb \
+sim:/caesar_cypher_tb/enc_dec_tb \
+sim:/caesar_cypher_tb/input_ASCII_err_tb \
+sim:/caesar_cypher_tb/T_clk
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# Compile of caesar_cypher.vhd was successful.
+# Compile of char_lut.vhd was successful.
+# Compile of caesar_cypher_tb.vhd failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of caesar_cypher.vhd was successful.
+# Compile of char_lut.vhd was successful.
+# Compile of caesar_cypher_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.caesar_cypher_tb
+# End time: 18:28:25 on Apr 06,2024, Elapsed time: 0:06:21
+# Errors: 0, Warnings: 6
+# vsim -gui work.caesar_cypher_tb 
+# Start time: 18:28:25 on Apr 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.caesar_cypher_tb(caesar_cypher_testbench)
+# Loading work.caesar_cypher(arch_caesar_cypher)
+# Loading work.char_lut(arch_char_lut)
+add wave -position insertpoint  \
+sim:/caesar_cypher_tb/clock_tb \
+sim:/caesar_cypher_tb/reset_tb \
+sim:/caesar_cypher_tb/chiave_tb \
+sim:/caesar_cypher_tb/msg_in_tb \
+sim:/caesar_cypher_tb/msg_out_tb \
+sim:/caesar_cypher_tb/enc_dec_tb \
+sim:/caesar_cypher_tb/input_ASCII_err_tb
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# Compile of caesar_cypher.vhd was successful.
+# Compile of char_lut.vhd was successful.
+# Compile of caesar_cypher_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.caesar_cypher_tb
+# End time: 18:37:51 on Apr 06,2024, Elapsed time: 0:09:26
+# Errors: 0, Warnings: 4
+# vsim -gui work.caesar_cypher_tb 
+# Start time: 18:37:51 on Apr 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.caesar_cypher_tb(caesar_cypher_testbench)
+# Loading work.caesar_cypher(arch_caesar_cypher)
+# Loading work.char_lut(arch_char_lut)
+add wave -position insertpoint  \
+sim:/caesar_cypher_tb/clock_tb \
+sim:/caesar_cypher_tb/reset_tb \
+sim:/caesar_cypher_tb/chiave_tb \
+sim:/caesar_cypher_tb/msg_in_tb \
+sim:/caesar_cypher_tb/msg_out_tb \
+sim:/caesar_cypher_tb/enc_dec_tb \
+sim:/caesar_cypher_tb/input_ASCII_err_tb
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# Compile of caesar_cypher.vhd was successful.
+# Compile of char_lut.vhd was successful.
+# Compile of caesar_cypher_tb.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.caesar_cypher_tb
+# End time: 18:49:06 on Apr 06,2024, Elapsed time: 0:11:15
+# Errors: 0, Warnings: 4
+# vsim -gui work.caesar_cypher_tb 
+# Start time: 18:49:06 on Apr 06,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.caesar_cypher_tb(caesar_cypher_testbench)
+# Loading work.caesar_cypher(arch_caesar_cypher)
+# Loading work.char_lut(arch_char_lut)
+add wave -position insertpoint  \
+sim:/caesar_cypher_tb/clock_tb \
+sim:/caesar_cypher_tb/reset_tb \
+sim:/caesar_cypher_tb/chiave_tb \
+sim:/caesar_cypher_tb/msg_in_tb \
+sim:/caesar_cypher_tb/msg_out_tb \
+sim:/caesar_cypher_tb/enc_dec_tb \
+sim:/caesar_cypher_tb/input_ASCII_err_tb
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /caesar_cypher_tb/CAESAR_CYPER/LUT_CHAR
+# End time: 19:26:41 on Apr 06,2024, Elapsed time: 0:37:35
+# Errors: 0, Warnings: 3
